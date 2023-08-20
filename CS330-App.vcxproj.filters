@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{8d9ef1c0-5589-4cec-bee5-b66954c2a110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{81d97ecc-a962-446a-8d8e-fcfcd06cad2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{b09d8046-a5f8-48a2-b43d-eea96c73b511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\stb">
+      <UniqueIdentifier>{a4505dfd-d023-4601-a9ea-cb10b7b29ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\rendering">
+      <UniqueIdentifier>{52eb41fc-a683-47c3-8e55-5ec3ee05758f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\rendering">
+      <UniqueIdentifier>{b3de9bd2-83de-4cf0-b8d5-1df0e604967c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\glad\src\glad.c">
+      <Filter>Source Files\external</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files\external\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
